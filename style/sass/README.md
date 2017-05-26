@@ -45,9 +45,9 @@
 * Use ID and class names that are as short as possible but as long as necessary.
 * Avoid using the direct descendant selector `>`.
 * Avoid nesting more than 3 selectors deep.
-* Avoid using the HTML tag in the class name: `section.news` not `section.news-section`.
-* Avoid using HTML tags on classes for generic markup `<div>`, `<span>`: `.widgets` not `div.widgets`.
-* Avoid using HTML tags on classes with specific class names like `.featured-articles`.
+* Avoid over-qualified selectors:
+  * Do: `.page-title`
+  * Don't: `h1.page-title`
 * Avoid using comma delimited selectors.
 * Avoid nesting within a media query.
 
